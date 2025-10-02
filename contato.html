@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com a Felix Cambotas - Orçamentos e informações sobre cambotas de madeira">
+    <title>Contato - Felix Cambotas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="LOGO.png" alt="Felix Cambotas Logo">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <button class="mobile-menu-toggle" aria-label="Menu" aria-expanded="false">
+                    <span class="menu-icon"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
+                </ul>
+                <a href="https://wa.me/551134761069" class="whatsapp-button" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i> <span class="whatsapp-text">Fale com um atendente</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="section">
+        <h1 class="section-title">Entre em Contato</h1>
+        <p class="section-subtitle">Estamos prontos para atender seu projeto</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="contact-container">
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h3>Informações de Contato</h3>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <div>
+                        <strong style="color: var(--primary-color); display: block; margin-bottom: 0.3rem;">Telefone</strong>
+                        <p>(11) 3476-1069</p>
+                        <p style="font-size: 0.9rem; color: var(--text-light);">Horário de atendimento: Segunda a Sexta, 8h às 18h</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <strong style="color: var(--primary-color); display: block; margin-bottom: 0.3rem;">Endereço</strong>
+                        <p>R. Cabo Oscar Rossini, 1238<br>
+                        Parque Novo Mundo<br>
+                        São Paulo - SP<br>
+                        CEP: 02186-030</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">🕐</div>
+                    <div>
+                        <strong style="color: var(--primary-color); display: block; margin-bottom: 0.3rem;">Horário de Funcionamento</strong>
+                        <p>Segunda a Sexta: 8h às 18h<br>
+                        Sábado: 8h às 12h<br>
+                        Domingo: Fechado</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">💼</div>
+                    <div>
+                        <strong style="color: var(--primary-color); display: block; margin-bottom: 0.3rem;">Atendimento</strong>
+                        <p>Orçamentos sem compromisso<br>
+                        Consultoria técnica gratuita<br>
+                        Visitas agendadas à oficina</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3>Solicite um Orçamento</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nome Completo *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Telefone *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Assunto</label>
+                        <input type="text" id="subject" name="subject" placeholder="Ex: Orçamento para cambotas náuticas">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensagem *</label>
+                        <textarea id="message" name="message" required placeholder="Descreva seu projeto, especificações desejadas (tipo de madeira, dimensões, quantidade, prazo) e outras informações relevantes."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-button">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section" style="background-color: white; padding: 4rem 2rem;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <h2 class="section-title">Nossa Localização</h2>
+            <p class="section-subtitle">Visite nossa oficina em São Paulo</p>
+            
+            <div style="width: 100%; height: 450px; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); margin-top: 2rem;">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3876847982847!2d-46.54158492377086!3d-23.50177995947588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f3e6c6c6c6d%3A0x1234567890abcdef!2sR.%20Cabo%20Oscar%20Rossini%2C%201238%20-%20Parque%20Novo%20Mundo%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002186-030!5e0!3m2!1spt-BR!2sbr!4v1234567890123!5m2!1spt-BR!2sbr" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <h2 class="section-title">Perguntas Frequentes</h2>
+        <p class="section-subtitle">Tire suas dúvidas sobre nossos produtos e serviços</p>
+        
+        <div style="max-width: 900px; margin: 0 auto;">
+            <div class="feature-card" style="text-align: left; margin-bottom: 1.5rem;">
+                <h3 style="color: var(--primary-color); margin-bottom: 0.8rem;">Qual o prazo de entrega?</h3>
+                <p style="color: var(--text-light);">Os prazos variam conforme a complexidade e quantidade do pedido. Peças padrão ficam prontas entre 7 e 15 dias. Projetos especiais podem levar de 20 a 30 dias. Consulte-nos para um prazo específico.</p>
+            </div>
+
+            <div class="feature-card" style="text-align: left; margin-bottom: 1.5rem;">
+                <h3 style="color: var(--primary-color); margin-bottom: 0.8rem;">Vocês fazem cambotas sob medida?</h3>
+                <p style="color: var(--text-light);">Sim! Trabalhamos com projetos personalizados. Envie-nos o desenho técnico ou especificações desejadas e desenvolveremos as cambotas exatamente conforme sua necessidade.</p>
+            </div>
+
+            <div class="feature-card" style="text-align: left; margin-bottom: 1.5rem;">
+                <h3 style="color: var(--primary-color); margin-bottom: 0.8rem;">Quais tipos de madeira vocês trabalham?</h3>
+                <p style="color: var(--text-light);">Trabalhamos com diversas madeiras nobres como Peroba, Ipê, Jatobá, Cumaru, Angelim e Eucalipto tratado. A escolha depende da aplicação e disponibilidade. Podemos orientá-lo na melhor opção para seu projeto.</p>
+            </div>
+
+            <div class="feature-card" style="text-align: left; margin-bottom: 1.5rem;">
+                <h3 style="color: var(--primary-color); margin-bottom: 0.8rem;">Fazem entrega em outras cidades?</h3>
+                <p style="color: var(--text-light);">Sim, realizamos entregas para todo o Brasil. O frete é calculado conforme destino, volume e peso do pedido. Trabalhamos com transportadoras especializadas para garantir que seus produtos cheguem em perfeito estado.</p>
+            </div>
+
+            <div class="feature-card" style="text-align: left; margin-bottom: 1.5rem;">
+                <h3 style="color: var(--primary-color); margin-bottom: 0.8rem;">Como solicitar um orçamento?</h3>
+                <p style="color: var(--text-light);">Você pode preencher o formulário acima, ligar para (11) 3476-1069 ou visitar nossa oficina. Informe o tipo de cambota, dimensões, quantidade, tipo de madeira desejada e aplicação para recebermos um orçamento detalhado.</p>
+            </div>
+
+            <div class="feature-card" style="text-align: left;">
+                <h3 style="color: var(--primary-color); margin-bottom: 0.8rem;">Posso visitar a oficina antes de fazer o pedido?</h3>
+                <p style="color: var(--text-light);">Certamente! Ficamos felizes em receber sua visita. Recomendamos agendar previamente para garantirmos disponibilidade para atendê-lo adequadamente e mostrar nosso processo de fabricação.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Felix Cambotas</h3>
+                <p>Fabricação artesanal de cambotas de madeira de alta qualidade.</p>
+                <p>Tradição, experiência e compromisso com a excelência.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Links Rápidos</h3>
+                <p><a href="index.html">Início</a></p>
+                <p><a href="sobre.html">Sobre Nós</a></p>
+                <p><a href="produtos.html">Produtos</a></p>
+                <p><a href="contato.html">Contato</a></p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>📞 (11) 3476-1069</p>
+                <p>📍 R. Cabo Oscar Rossini, 1238<br>Parque Novo Mundo<br>São Paulo - SP, 02186-030</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Felix Cambotas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            // Create mailto link
+            const mailtoLink = `mailto:contato@felizcambotas.com.br?subject=${encodeURIComponent(subject || 'Contato via Site')}&body=${encodeURIComponent(
+                `Nome: ${name}\nE-mail: ${email}\nTelefone: ${phone}\n\nMensagem:\n${message}`
+            )}`;
+            
+            // Open email client
+            window.location.href = mailtoLink;
+            
+            // Show confirmation
+            alert('Obrigado pelo contato! Seu cliente de e-mail será aberto. Se preferir, você também pode ligar para (11) 3476-1069.');
+        });
+    </script>
+</body>
+</html>
